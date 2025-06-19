@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://pay.google.com/gp/p/js/pay.js"></script>
+<!--     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
+<!--     <script src="https://pay.google.com/gp/p/js/pay.js"></script> -->
     <script type="text/javascript" src="https://test-api.payrix.com/payFrameScript"></script>
     
    
@@ -18,8 +18,8 @@
         PayFrame.config.merchant = 't1_mer_684aa8a8bc48c2ff92db1f1'; // Required
         PayFrame.config.amount = 100; // Required
         PayFrame.config.txnType = 'sale'; // Required.
-        PayFrame.config.googlePay.enabled = true;
-        PayFrame.config.googlePay.environment = 'TEST';
+        PayFrame.config.applePay.enabled = true;
+        PayFrame.config.applePay.environment = 'TEST';
         PayFrame.popup();
       </script>
 </body>
